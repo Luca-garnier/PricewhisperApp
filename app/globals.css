@@ -33,7 +33,7 @@ custom-theme-color {
   }
 
   .small-text {
-    @apply flex gap-2 text-base font-medium text-black;
+    @apply flex gap-2 text-base font-medium text-blackarr;
   }
 
   .paragraph-text {
