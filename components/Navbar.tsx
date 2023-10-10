@@ -4,11 +4,10 @@ import React from 'react'
 import '../app/globals.css'
 
 const navIcons = [
-  {src: '/assets/icons/price-tag.svg', alt: 'PT'},
-  {src: '/assets/icons/back-heart.svg', alt: 'heart'},
-  {src: '/assets/icons/user.svg', alt: 'user'}
+  {src: '/assets/icons/search.png', alt: 'search'},
+  {src: '/assets/icons/black-heart.png', alt: 'heart'},
+  {src: '/assets/icons/user.png', alt: 'user'}
 ]
-
 
 const Navbar = () => {
   return (
