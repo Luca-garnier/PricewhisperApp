@@ -1,3 +1,4 @@
+import Modal from '@/components/Modal'
 import { PriceInfoCard } from '@/components/PriceInfoCard'
 import ProductCard from '@/components/ProductCard'
 import { getProductById, getSimilarProducts } from '@/lib/actions'
@@ -126,13 +127,13 @@ const ProductDetails = async ({ params: { id }} : Props) => {
                             borderColor='#b6dbff'
                         />
                         <PriceInfoCard
-                            title="Current Price"
+                            title="Highest Price"
                             iconSrc="/assets/icons/arrow-up.svg"
                             value={`${product.currency} ${formatNumber(product.highestPrice)}`}
                             borderColor='#b6dbff'
                         />
                         <PriceInfoCard
-                            title="Current Price"
+                            title="Lowest Price"
                             iconSrc="/assets/icons/arrow-down.svg"
                             value={`${product.currency} ${formatNumber(product.lowestPrice)}`}
                             borderColor='#b6dbff'
@@ -140,7 +141,7 @@ const ProductDetails = async ({ params: { id }} : Props) => {
                     </div>
                 </div>
 
-                MODAL
+                <Modal />
             </div>
         </div>
         <div className="flex flex-col gap-16">
