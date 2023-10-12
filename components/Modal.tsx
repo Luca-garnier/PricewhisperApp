@@ -24,7 +24,7 @@ const Modal = () => {
 
     const closeModal = () => setIsOpen(false);
 
-    return ( 
+    return (  
         <>
     <button type="button" className='btn' onClick={openModal}>
         Track

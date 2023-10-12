@@ -6,6 +6,7 @@ import { connectToDB } from "../mongoose";
 import { scrapeAmazonProduct } from "../scraper";
 import { getAveragePrice, getHighestPrice, getLowestPrice } from "../utils";
 import { User } from "../types/types";
+import { generateEmailBody } from "../nodemailer";
 
 //Scrape product and save it in our DB 
 export async function scrapeAndStoreProduct(productUrl: string) {
@@ -105,14 +106,14 @@ export async function addUserEmailToProduct(productId: string, userEmail: string
         //Send out email
         const product = await Product.findById(productId);
         if(!product) return;
-
+        //Find user and add to email list for that product. Add user email to product users if not added yet. 
         const userExists = product.users.some((user: User) => user.email === userEmail);
         if(!userExists){
             product.users.push({email: userEmail});
             await product.save();
             
-            const emailContent = generateEmailBody(product, "WELCOME");
-            
+            const emailContent = generateEmailBody(product, "WELCOME"); // returns subject and body for said product email
+            await sendEmail(emailContent, [userEmail]);
 
         }
         
