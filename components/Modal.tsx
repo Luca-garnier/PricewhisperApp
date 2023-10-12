@@ -1,9 +1,14 @@
 'use client'
+import { addUserEmailToProduct } from '@/lib/actions'
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image'
 import React, { useState, Fragment, FormEvent } from 'react'
 
-const Modal = () => {
+interface Props {
+    productId: string
+}
+
+const Modal = ({productId}: Props) => {
     let [isOpen, setIsOpen] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [email, setEmail] = useState('')
@@ -12,7 +17,7 @@ const Modal = () => {
         e.preventDefault();//No page reloading
         setIsSubmitting(true);
 
-        // await addUserEmailToProduct(productId, email);
+        await addUserEmailToProduct(productId, email);
 
         setIsSubmitting(false);
         setEmail('');
