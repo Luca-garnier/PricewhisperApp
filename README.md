@@ -1,9 +1,19 @@
-## Quick Project Overview
+## Project Overview
 - Developed end-to-end web scraping application using Next.js 13, designed to empower users with the ability to track, monitor, and receive real-time notifications regarding products and their prices on Amazon websites within the realm of eCommerce. 
 - Employed BrightData to oversee IP rotation, address CAPTCHA challenges, and handle other data accessibility complexities. 
 - Implemented an email notification functionality to provide regular updates to users regarding changes in their monitored products, including stock updates, price reductions, and special discounts. 
 - Executed user authentication through NextAuth, utilizing JWT for secure user sessions, managing restricted and public routes, and employing bcrypt for robust password encryption.
 - Utilized cron jobs for automated execution of web scraping tasks and routine updates of product records within the database.
+
+## Website Preview
+<img width="992" alt="Screen Shot 2023-10-18 at 16 48 53" src="https://github.com/Luca-garnier/PricewhisperApp/assets/69828682/23837c13-529e-4497-ac1b-3e2bdea289b2">
+<img width="987" alt="Screen Shot 2023-10-18 at 16 49 15" src="https://github.com/Luca-garnier/PricewhisperApp/assets/69828682/992da23d-807c-4713-9bf1-e764235ec09e">
+<img width="462" alt="Screen Shot 2023-10-18 at 16 51 53" src="https://github.com/Luca-garnier/PricewhisperApp/assets/69828682/981399aa-bea4-4679-baa3-b04e564ed823">
+
+
+
+
+
 
 ## Getting Started
 
