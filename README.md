@@ -8,9 +8,9 @@
 ## Website Preview
 <img width="992" alt="Screen Shot 2023-10-18 at 16 48 53" src="https://github.com/Luca-garnier/PricewhisperApp/assets/69828682/23837c13-529e-4497-ac1b-3e2bdea289b2.png">
 
-<img width="987" alt="Screen Shot 2023-10-18 at 16 49 15" src="https://github.com/Luca-garnier/PricewhisperApp/assets/69828682/992da23d-807c-4713-9bf1-e764235ec09e">
+<img width="987" alt="Screen Shot 2023-10-18 at 16 49 15" src="https://github.com/Luca-garnier/PricewhisperApp/assets/69828682/992da23d-807c-4713-9bf1-e764235ec09e.png">
 
-<img width="462" alt="Screen Shot 2023-10-18 at 16 51 53" src="https://github.com/Luca-garnier/PricewhisperApp/assets/69828682/981399aa-bea4-4679-baa3-b04e564ed823">
+<img width="462" alt="Screen Shot 2023-10-18 at 16 51 53" src="https://github.com/Luca-garnier/PricewhisperApp/assets/69828682/981399aa-bea4-4679-baa3-b04e564ed823.png">
 
 
 
