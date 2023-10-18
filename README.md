@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Quick Project Overview
+- Developed end-to-end web scraping application using Next.js 13, designed to empower users with the ability to track, monitor, and receive real-time notifications regarding products and their prices on Amazon websites within the realm of eCommerce. 
+- Employed BrightData to oversee IP rotation, address CAPTCHA challenges, and handle other data accessibility complexities. 
+- Implemented an email notification functionality to provide regular updates to users regarding changes in their monitored products, including stock updates, price reductions, and special discounts. 
+- Executed user authentication through NextAuth, utilizing JWT for secure user sessions, managing restricted and public routes, and employing bcrypt for robust password encryption.
+- Utilized cron jobs for automated execution of web scraping tasks and routine updates of product records within the database.
 
 ## Getting Started
 
